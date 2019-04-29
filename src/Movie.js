@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 function Movie({title, poster, genres, synopsis}) {
     return (
-        <div className="Movie">햣 
+        <div className="Movie">
             <div className="Movie__Columns">
                 <MoviePoster poster={poster} alt={title} />
             </div>
