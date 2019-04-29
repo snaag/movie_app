@@ -1,12 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Movie.css';
 import PropTypes from 'prop-types';
 
 
-
 function Movie({title, poster, genres, synopsis}) {
     return (
-        <div className="Movie">
+        <div className="Movie">햣 
             <div className="Movie__Columns">
                 <MoviePoster poster={poster} alt={title} />
             </div>
