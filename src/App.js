@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Movie from './Movie'
 
@@ -43,7 +42,7 @@ class App extends React.Component {
 
   _renderLoading = () => {
     const url = "https://loading.io/spinners/rolling/index.curve-bars-loading-indicator.gif"
-    return <img src={url}></img>
+    return <img src={url} alt='img'></img>
   }
 
   render() {
